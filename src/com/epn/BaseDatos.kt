@@ -34,7 +34,9 @@ class BaseDatos() {
         println("Datos Ingresados")
         println(listVehiculo)
     }
-    fun consultar(){
+    fun consultar( ){
+        var x=list.get(0)
+        println(list)
 
     }
 }
