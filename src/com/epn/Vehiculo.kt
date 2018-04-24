@@ -1,8 +1,10 @@
 package com.epn
 
-class Persona(var nombre : String,var cedula : String,var direccion: String,var telefono: Int,var correo_electronico: String){
+import java.util.*
+
+class Vehiculo(var placa : String,var marca : String,var modelo: String){
 
     override fun toString(): String {
-        return "Se ha Ingresado la persona $nombre con cedula $cedula , direccion $direccion , telefono $telefono , correo $correo_electronico"
+        return ("Se ha Ingresado el vehiculo con $placa  Marca $marca , Modelo $modelo")
     }
 }
