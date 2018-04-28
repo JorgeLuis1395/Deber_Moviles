@@ -1,0 +1,3 @@
+[El cliente con cedula 1732432 ,ha Ingresado el vehiculo con pb3212,  Marca asd , Modelo asd, '
+'][El cliente con cedula 1723358907 ,ha Ingresado el vehiculo con pbu2455,  Marca Chevrolet , Modelo aveo, '
+']

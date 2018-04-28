@@ -1,0 +1,7 @@
+[Persona 'jorge', 123, 'condai', '1232', 'sad@ds.edu.ec', '
+') ][Persona 'jorge', 123, 'condai', '1232', 'sad@ds.edu.ec', '
+') ][Persona 'Jorge', 1732432, 'condao', '2322', 'asd', '
+') ][Persona 'Jorge', 1723358907, 'Condado', '3383244', 'carrillojorge1395@gmail.com', '
+') ][Persona 'Jorge', 1723358907, 'Condado', '3383244', 'carrillojorge1395@gmail.com', '
+') , Persona 'Juan', 23432, 'asd', 'asd', 'ad', '
+') ]
