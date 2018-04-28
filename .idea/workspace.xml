@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a74e8c7-0139-45be-b649-f5b1c4bc1189" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Mecanica.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Mecanica.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Personas.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Personas.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vehiculo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Vehiculo.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epn/BaseDatos.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epn/BaseDatos.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +23,8 @@
       <file leaf-file-name="Main.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/epn/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="1517">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
         </entry>
@@ -40,17 +38,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseDatos.kt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BaseDatos.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/epn/BaseDatos.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="803">
-              <caret line="66" column="34" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
+            <state relative-caret-position="416">
+              <caret line="86" column="35" selection-start-line="86" selection-start-column="35" selection-end-line="86" selection-end-column="35" />
               <folding>
-                <element signature="n#!!block;n#agregarVehiculo#1;n#!!block;n#BaseDatos#0" />
-                <element signature="n#!!block;n#guardarInformacion#0;n#!!block;n#BaseDatos#0" />
                 <element signature="n#!!block;n#guardarInformacionVehiculo#0;n#!!block;n#BaseDatos#0" />
-                <element signature="n#!!block;n#guardarInformacionVehiculo#1;n#!!block;n#BaseDatos#0" />
-                <element signature="n#!!block;n#consultarFactura#0;n#!!block;n#BaseDatos#0" />
               </folding>
             </state>
           </provider>
@@ -59,13 +53,13 @@
       <file leaf-file-name="Persona.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/epn/Persona.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="259">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Vehiculo.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Vehiculo.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/epn/Vehiculo.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="333">
@@ -98,11 +92,11 @@
         <option value="$PROJECT_DIR$/src/com/epn/Persona.kt" />
         <option value="$PROJECT_DIR$/src/com/epn/Vehiculo.kt" />
         <option value="$PROJECT_DIR$/src/com/epn/Factura.kt" />
-        <option value="$PROJECT_DIR$/src/com/epn/BaseDatos.kt" />
         <option value="$PROJECT_DIR$/src/com/epn/Main.kt" />
         <option value="$PROJECT_DIR$/Mecanica.txt" />
         <option value="$PROJECT_DIR$/Personas.txt" />
         <option value="$PROJECT_DIR$/Vehiculo.txt" />
+        <option value="$PROJECT_DIR$/src/com/epn/BaseDatos.kt" />
       </list>
     </option>
   </component>
@@ -264,11 +258,12 @@
       <workItem from="1524530419908" duration="8365000" />
       <workItem from="1524598773429" duration="9823000" />
       <workItem from="1524934898943" duration="10879000" />
+      <workItem from="1524956929576" duration="179000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43416000" />
+    <option name="totallyTimeSpent" value="43595000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1109" y="23" width="1128" height="974" extended-state="0" />
@@ -288,10 +283,8 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4984375" visible="true" weight="0.2251773" />
-      <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.32983193" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4984375" visible="true" weight="0.2251773" />
       <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32983193" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -300,38 +293,40 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39915967" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.32983193" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32983193" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3277311" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.32983193" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3277311" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4984375" visible="true" weight="0.2251773" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.32983193" />
       <window_info id="Designer" order="3" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39915967" />
       <window_info id="Capture Tool" order="6" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3277311" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info id="Favorites" order="5" sideWeight="0.5015625" side_tool="true" visible="true" weight="0.2251773" />
     </layout-to-restore>
@@ -350,6 +345,44 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/epn/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1517">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epn/Factura.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epn/BaseDatos.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2442">
+          <caret line="66" column="34" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
+          <folding>
+            <element signature="n#!!block;n#guardarInformacionVehiculo#0;n#!!block;n#BaseDatos#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epn/Persona.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epn/Vehiculo.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epn/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1258">
           <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
         </state>
@@ -360,11 +393,7 @@
         <state relative-caret-position="1443">
           <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
           <folding>
-            <element signature="n#!!block;n#agregarVehiculo#1;n#!!block;n#BaseDatos#0" />
-            <element signature="n#!!block;n#guardarInformacion#0;n#!!block;n#BaseDatos#0" />
             <element signature="n#!!block;n#guardarInformacionVehiculo#0;n#!!block;n#BaseDatos#0" />
-            <element signature="n#!!block;n#guardarInformacionVehiculo#1;n#!!block;n#BaseDatos#0" />
-            <element signature="n#!!block;n#consultarFactura#0;n#!!block;n#BaseDatos#0" />
           </folding>
         </state>
       </provider>
@@ -458,11 +487,7 @@
         <state relative-caret-position="962">
           <caret line="37" selection-start-line="37" selection-end-line="37" />
           <folding>
-            <element signature="n#!!block;n#agregarVehiculo#1;n#!!block;n#BaseDatos#0" />
-            <element signature="n#!!block;n#guardarInformacion#0;n#!!block;n#BaseDatos#0" />
             <element signature="n#!!block;n#guardarInformacionVehiculo#0;n#!!block;n#BaseDatos#0" />
-            <element signature="n#!!block;n#guardarInformacionVehiculo#1;n#!!block;n#BaseDatos#0" />
-            <element signature="n#!!block;n#consultarFactura#0;n#!!block;n#BaseDatos#0" />
           </folding>
         </state>
       </provider>
@@ -527,8 +552,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/epn/Persona.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="259">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -539,33 +564,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vehiculo.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Personas.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mecanica.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/epn/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epn/BaseDatos.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="803">
-          <caret line="66" column="34" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
-          <folding>
-            <element signature="n#!!block;n#agregarVehiculo#1;n#!!block;n#BaseDatos#0" />
-            <element signature="n#!!block;n#guardarInformacion#0;n#!!block;n#BaseDatos#0" />
-            <element signature="n#!!block;n#guardarInformacionVehiculo#0;n#!!block;n#BaseDatos#0" />
-            <element signature="n#!!block;n#guardarInformacionVehiculo#1;n#!!block;n#BaseDatos#0" />
-            <element signature="n#!!block;n#consultarFactura#0;n#!!block;n#BaseDatos#0" />
-          </folding>
+        <state relative-caret-position="1517">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
     </entry>
@@ -573,6 +575,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
           <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epn/BaseDatos.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="86" column="35" selection-start-line="86" selection-start-column="35" selection-end-line="86" selection-end-column="35" />
+          <folding>
+            <element signature="n#!!block;n#guardarInformacionVehiculo#0;n#!!block;n#BaseDatos#0" />
+          </folding>
         </state>
       </provider>
     </entry>

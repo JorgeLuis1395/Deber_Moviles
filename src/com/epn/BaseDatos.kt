@@ -83,6 +83,11 @@ class BaseDatos {
         }
     }
     fun consultarFactura( datos : Int){
-        listMecanica.get(datos)
+        try {
+            listMecanica.get(datos)
+        } catch (ex: Exception){
+            print(ex.message)
+        }
+
     }
 }
