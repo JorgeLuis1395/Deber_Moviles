@@ -1,1 +1,0 @@
-[Mecanica(ced=23432, placa='pbu2455', descripcion='cambio de filtros', total=50.0)]
