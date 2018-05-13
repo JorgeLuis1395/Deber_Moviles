@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/row_padding_vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/row_padding_vertical">
+
+    <TextView
+        android:id="@+id/txtv_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtv_apellido"
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:layout_below="@id/txtv_nombre" />
+
+    <TextView
+        android:id="@+id/txtv_cedula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:id="@+id/buttonDescripcion"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/txtv_nombre"
+        android:layout_marginEnd="35dp"
+        android:text="DETAIL"
+        android:textSize="8sp" />
+
+    <Button
+        android:id="@+id/buttonLike"
+        android:layout_width="71dp"
+        android:layout_height="32dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="136dp"
+        android:layout_marginTop="16dp"
+        android:text="Like"
+        android:textSize="8sp" />
+
+
+</RelativeLayout>
